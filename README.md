@@ -13,7 +13,6 @@ Project Edge Impulse: `https://studio.edgeimpulse.com/studio/1021052`
 ## Nội dung repo
 
 - `report/PhamNgocQuangHuy_final_cuoiky.docx`: báo cáo Word cuối kỳ đã chỉnh theo project của đề tài.
-- `scripts/build_final_tieuluan.py`: script dựng lại báo cáo DOCX.
 - `scripts/make_synthetic_bottle_dataset.py`: tạo dataset prototype 3 class.
 - `scripts/upload_synthetic_dataset_to_edge_impulse.py`: upload dataset bằng Edge Impulse ingestion API, đọc API key từ biến môi trường `EI_API_KEY`.
 - `scripts/edge_impulse_upload_bridge.py`: bridge hỗ trợ upload từ browser/session.
@@ -30,15 +29,6 @@ Project Edge Impulse: `https://studio.edgeimpulse.com/studio/1021052`
 - Test precision / recall / F1 non-background: 0.90 / 0.93 / 0.92.
 - Deployment: build thành công `v12 (C++ library)` lúc 21:40:07 ngày 05/06/2026.
 - Browser realtime: client đã tải model và chạy trạng thái `Inferencing`; vùng camera trong screenshot đã được làm mờ để bảo vệ riêng tư.
-
-## Chạy lại báo cáo
-
-```powershell
-cd D:\MangCamBien\N23DCCI034-PhamNgocQuangHuy-MangCamBien-FOMO
-python .\scripts\build_final_tieuluan.py
-```
-
-Mặc định script sẽ xuất lại file vào `report/PhamNgocQuangHuy_final_cuoiky.docx`.
 
 ## Lưu ý
 

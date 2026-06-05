@@ -4,8 +4,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# Local generated report/render artifacts
-_generated_tieuluan_assets/
+# Local render artifacts
 _render*/
 *.pdf
 
