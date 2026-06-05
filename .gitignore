@@ -1,0 +1,31 @@
+# Python / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local generated report/render artifacts
+_generated_tieuluan_assets/
+_render*/
+*.pdf
+
+# Local dependency/cache folders
+_pydeps/
+.pip-cache/
+.uv-cache/
+
+# Secrets and local upload state
+.env
+*.env
+edge_impulse_upload_status.json
+*api_key*
+*secret*
+*token*
+
+# Office temporary files
+~$*.docx
+
+# Raw/unredacted realtime screenshots should stay local only
+*full_raw.png
+*realtime_inferencing.png
+*realtime_inferencing_redacted.png
